@@ -12,7 +12,7 @@
 	<script src="assets/jquery.min.js"></script>
 	<script src="assets/owl.carousel.min.js"></script>
 
-	<header x-data="{ mobileMenuOpen : false }" class="bg-blue">
+	<header id="header" x-data="{ mobileMenuOpen : false }" class="bg-blue">
 		<div class="container flex flex-wrap flex-row justify-between md:items-center md:space-x-4 py-8 px-4 relative mx-auto">
 			<a href="#" class="block">
 			<span class="sr-only">themes.dev</span>
@@ -113,29 +113,29 @@
 		</div>
 	</section>
 	<div class="bg-blue">
-		<div class="container px-4 py-6 mx-auto flex justify-between items-center">
+		<div class="container px-4 py-6 mx-auto flex justify-evenly items-center flex-wrap text-center;">
 			<span class="text-white font-light">On this page...</span>
-			<a class="border-b border-white border-solid" href="#"><h4 class="text-white">Temprament <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
-			<a class="border-b border-white border-solid" href="#"><h4 class="text-white">Appearance <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
-			<a class="border-b border-white border-solid" href="#"><h4 class="text-white">Health <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
-			<a class="border-b border-white border-solid" href="#"><h4 class="text-white">FAQ <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
-			<a class="border-b border-white border-solid" href="#"><h4 class="text-white">History <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
-			<a class="border-b border-white border-solid" href="#"><h4 class="text-white">Find a breeder <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
+			<a class="border-b border-white border-solid m-2" href="#"><h4 class="text-white">Temprament <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
+			<a class="border-b border-white border-solid m-2" href="#"><h4 class="text-white">Appearance <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
+			<a class="border-b border-white border-solid m-2" href="#"><h4 class="text-white">Health <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
+			<a class="border-b border-white border-solid m-2" href="#"><h4 class="text-white">FAQ <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
+			<a class="border-b border-white border-solid m-2" href="#"><h4 class="text-white">History <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
+			<a class="border-b border-white border-solid m-2" href="#"><h4 class="text-white">Find a breeder <i class="fas fa-chevron-right text-lg ml-2"></i></h4></a>
 		</div>
 	</div>
 	<section class="section_2">
 		<div class="container px-4 py-24 mx-auto">
 			<div class="flex justify-between flex-wrap items-center mb-6">
 				<h2>Welsh Corgi (Pembroke) Characteristics and Temperament</h2>
-				<a href="#"><i class="fas fa-chevron-up"></i> <span class="underline">Back to top</span></a>
+				<a href="#header"><i class="fas fa-chevron-up"></i> <span class="underline">Back to top</span></a>
 			</div>
-			<div class="grid grid-cols-3 gap-6">
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
 				<div>
-					<div class="cards mb-3">
+					<div class="cards mb-5">
 						<p class="mb-0">Original purpose</p>
 						<h3>Gathering Herder</h3>
 					</div>
-					<div class="cards mb-3">
+					<div class="cards mb-5">
 						<p class="mb-0">Bonding tendency</p>
 						<h3>Whole family</h3>
 					</div>
@@ -158,9 +158,42 @@
 		</div>
 	</section>
 	<img src="assets/big_corgy.jpg" style="width: 100%; height: auto;">
-	<section class="section_3">
-		<div class="container px-4 pb-6 mx-auto">
-				
+	<section class="section_3 bg-light-grey px-4 py-24">
+		<div class="container mx-auto">
+			<div class="flex justify-between flex-wrap items-center mb-6">
+				<h2>Welsh Cogi (Pembroke) Appearance</h2>
+				<a href="#header"><i class="fas fa-chevron-up"></i> <span class="underline">Back to top</span></a>
+			</div>
+			<div class="grid grid-cols-1 lg:grid-cols-3 gap-12">
+				<div>
+					<div class="cards mb-5">
+						<p class="mb-0">Shedding level</p>
+						<h3>Average</h3>
+					</div>
+					<div class="cards mb-5">
+						<p class="mb-0">Coat type</p>
+						<h3>Short double coat</h3>
+					</div>
+					<div class="cards">
+						<p class="mb-0">Grooming needs</p>
+						<h3>Weekly</h3>
+					</div>
+				</div>
+				<div>
+					<h5 class="mb-3">Appearance</h5>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et.</p>
+					<h5 class="mb-3">Size</h5>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+					<h5 class="mb-3">Height and weight</h5>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore.</p>
+				</div>
+				<div>
+					<h5 class="mb-3">Coat</h5>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo.</p>
+					<h5 class="mb-3">Colour</h5>
+					<p>Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy eirmod tempor invidunt ut labore et dolore magna aliquyam erat, sed diam voluptua. At vero eos et accusam et justo duo dolores et ea rebum. Stet clita kasd gubergren, no sea takimata sanctus est Lorem ipsum dolor sit amet. Lorem ipsum dolor sit amet, consetetur sadipscing elitr, sed diam nonumy.</p>
+				</div>
+			</div>
 		</div>
 	</section>
 	<section class="section_4">

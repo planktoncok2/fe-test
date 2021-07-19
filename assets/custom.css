@@ -65,6 +65,9 @@ button{
 .bg-blue{
 	background-color: #0575B5;
 }
+.bg-light-grey{
+	background-color: #EFEFEF;
+}
 .breadcrumbs{
 	background-color: #232F44;
 }
@@ -130,6 +133,13 @@ button{
 	max-width: 48%;
 }
 
+@media(max-width: 1023px){
+	.section_1 .content-area .col{
+		flex: 1 0 100%;
+		max-width: 100%;
+	}
+
+}
 .progress-bar-container .bar{
 	width: 100%;
 	border-radius: 36px;
@@ -193,4 +203,7 @@ button{
 }
 .section_2 .cards{
 	max-width: 400px;
+}
+.section_3 .cards{
+	background-color: #fff;
 }
