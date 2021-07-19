@@ -71,6 +71,9 @@ button{
 .bg-dark-grey{
 	background-color: #424B5A;
 }
+.bg-dark{
+	background-color: #343434;
+}
 .breadcrumbs{
 	background-color: #232F44;
 }
@@ -82,6 +85,9 @@ button{
 }
 .text-orange{
 	color: #FFA406;
+}
+.text-grey{
+	color: #C4C4C4;
 }
 @media(min-width: 768px){
 	.nav-btn{
@@ -419,6 +425,7 @@ button{
 	text-align: right;
 	background-color: #1d1d1d91;
 	padding: 12px;
+	border-radius: 0 0 19px 0;
 }
 
 @media(max-width: 1023px){
@@ -426,4 +433,21 @@ button{
 		flex: 1 0 100%;
 		max-width: 100%;
 	}
+}
+
+.footer-col-1{
+	flex: 1 0 30%;
+	max-width: 30%;
+}
+.footer-col-2{
+	flex: 1 0 70%;
+	max-width: 70%;
+}
+.footer-menu-container{
+	flex: 1 0 24%;
+	max-width: 24%;
+}
+.footer-copyright{
+	flex: 1 0 100%;
+	max-width: 100%;
 }
